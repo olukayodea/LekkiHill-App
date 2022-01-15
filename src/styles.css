@@ -808,25 +808,6 @@ button:hover, button:active, button:focus {
   right: 10px;
 }
 
-.appFooter {
-  border-top: 1px solid #E1E1E1;
-  padding: 24px 16px;
-  font-size: 12px;
-  text-align: center;
-  line-height: 1.2em;
-  background: #fff;
-}
-
-.appFooter .footer-title {
-  font-weight: 500;
-  color: #141515;
-  margin-bottom: 8px;
-}
-
-.appFooter .btn {
-  margin: 0 5px;
-}
-
 .fixed-footer {
   position: fixed;
   bottom: 0;
@@ -2287,8 +2268,8 @@ a.badge-dark {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
-  background: #0564fd !important;
-  border-color: #0564fd !important;
+  background: #a3c634 !important;
+  border-color: #a3c634 !important;
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
@@ -3717,7 +3698,7 @@ a.bg-primary {
 }
 
 a.bg-primary:hover, a.bg-primary:active {
-  background: #0564fd !important;
+  background: #a3c634 !important;
 }
 
 a.bg-secondary {
@@ -5655,7 +5636,7 @@ textarea,
 }
 
 .fab-button.dropdown.show .fab {
-  background: #0564fd;
+  background: #a3c634;
 }
 
 .fab-button .dropdown-menu {
@@ -5900,7 +5881,7 @@ textarea,
 }
 
 .notification-dialog.android-style .notification-footer .notification-button:hover, .notification-dialog.android-style .notification-footer .notification-button:active {
-  color: #0564fd;
+  color: #a3c634;
   background: rgba(225, 225, 225, 0.3);
 }
 
@@ -6026,7 +6007,7 @@ textarea,
 }
 
 .notification-dialog.ios-style .notification-footer .notification-button:hover, .notification-dialog.ios-style .notification-footer .notification-button:active {
-  color: #0564fd;
+  color: #a3c634;
   background: rgba(255, 255, 255, 0.02);
 }
 
@@ -9274,19 +9255,6 @@ body.dark-mode-active .timeline .dot {
 
 body.dark-mode-active .toast-box {
   background: #060a11;
-}
-
-body.dark-mode-active .appFooter {
-  border-top-color: #1B283B;
-  background: #0c1624;
-}
-
-body.dark-mode-active .appFooter .footer-title {
-  color: #FFFFFF;
-}
-
-body.dark-mode-active .appFooter .btn-icon {
-  color: #586d7f;
 }
 
 body.dark-mode-active .sidebar-buttons {

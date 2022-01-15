@@ -1,4 +1,5 @@
-import { Component, HostListener, OnInit } from '@angular/core';
+import { Component, HostListener, Input, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-header',
@@ -7,16 +8,20 @@ import { Component, HostListener, OnInit } from '@angular/core';
 })
 
 export class HeaderComponent implements OnInit {
+  @Input() title: string = "LekkiHill Clinic";
   showSearch: boolean = false;
   scrollTip: boolean = false;
   loader: boolean = true;
 
-  constructor() { }
+  constructor(
+    private titleService: Title,
+  ) {
+    this.titleService.setTitle( this.title );
+  }
 
   ngOnInit(): void {
     setTimeout(() => {
       this.loader = false;
-      console.log("yes");
     }, 2000);
   }
 
